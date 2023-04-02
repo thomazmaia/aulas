@@ -1,8 +1,7 @@
-### Informática Básica (T1)
+# Aulas - prof. Thomaz Maia
+### [Informática Básica](/INFOBAS)
 - 2023.1
-### Informática Básica (T2)
+### [Programação Estruturada](/PEST)
 - 2023.1
-### Programação Estruturada
-- 2023.1
-### Programação Orientada a Objetos
+### [Programação Orientada a Objetos](/POO)
 - 2023.1
