@@ -1,4 +1,4 @@
-## Pasta de códigos de POO
+## Pasta de códigos de Programação Orientada a Objetos
 Esta pasta contém os códigos desenvolvidos em sala de aula da disciplina de Programação Orientada a Objetos (POO).
 
 ### Conteúdo
