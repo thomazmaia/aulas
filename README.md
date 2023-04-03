@@ -1,7 +1,7 @@
 # Aulas - prof. Thomaz Maia
-### [Informática Básica](/INFOBAS)
+### [Informática Básica](/InfoBas)
 - 2023.1
-### [Programação Estruturada](/PEST)
+### [Programação Estruturada](/PEst)
 - 2023.1
 ### [Programação Orientada a Objetos](/POO)
 - 2023.1
