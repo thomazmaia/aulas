@@ -30,7 +30,7 @@
 
     ```eh_multiplo(7, 3)``` $\rightarrow$ False
 
-    ```eh_multiplo(5, 3x)``` $\rightarrow$ True
+    ```eh_multiplo(6, 3)``` $\rightarrow$ True
 
 ---
 
@@ -66,7 +66,21 @@
 
 ---
 
-7. Escreva uma função que receba duas listas e retorne a lista com mais elementos
+7. Escreva uma função que receba uma lista contendo as notas de um aluno e um número que representa o valor da média para ser aprovado. A função deve retornar a situação do aluno: aprovado ou reprovado. Caso o usuário não coloque nenhum número, sua função deve adotar 7 como valor padrão.
+
+    Valores esperados:
+
+    ```verifica_se_passou([10, 6, 8], 6)``` $\rightarrow$ Aprovado
+
+    ```verifica_se_passou([7, 7, 4], 6)``` $\rightarrow$ Aprovado
+
+    ```verifica_se_passou([7, 6, 5, 7])``` $\rightarrow$ Reprovado
+
+    ```verifica_se_passou([4.5, 9.3, 7.8, 8])``` $\rightarrow$ Aprovado    
+
+---
+
+8. Escreva uma função que receba duas listas e retorne a lista com mais elementos
 
     Valores esperados:
 
@@ -76,7 +90,7 @@
 
 ---
 
-8. Escreva uma função que receba uma string e retorne essa string toda minúscula com a última letra maiúscula.
+9. Escreva uma função que receba uma string e retorne essa string toda minúscula com a última letra maiúscula.
 
     Valores esperados:
 
@@ -86,7 +100,7 @@
 
 ---
 
-9. Escreva uma função para validar uma variável string. Essa função recebe como parâmetro a string, o número mínimo e o número máximo de caracteres. Retorne verdadeiro se o tamanho da string estiver entre os valores máximo e mínimo e, falso, caso contrário
+10. Escreva uma função para validar uma variável string. Essa função recebe como parâmetro a string, o número mínimo e o número máximo de caracteres. Retorne verdadeiro se o tamanho da string estiver entre os valores máximo e mínimo e, falso, caso contrário
 
     Valores esperados:
 
@@ -96,7 +110,7 @@
 
 ---
 
-10. Escreva uma função para validar uma senha de um usuário. A senha deve ter entre 6 e 10 caracteres, deve possuir pelo menos 3 letras e pelo menos 3 números. Caso seja uma senha válida, retorne True. Caso contrário, retorne False.
+11. Escreva uma função para validar uma senha de um usuário. A senha deve ter entre 6 e 10 caracteres, deve possuir pelo menos 3 letras e pelo menos 3 números. Caso seja uma senha válida, retorne True. Caso contrário, retorne False.
 
     Valores esperados:
 
