@@ -22,9 +22,11 @@ exibir o número de letras.
 *Nota: Este projeto pode ser feito em equipe de até 4 pessoas e enviado pelo SUAP. Cada membro da equipe deve contribuir com a implementação do programa e com a documentação do projeto. **A nota será baseada na qualidade do código (organização, nome de variáveis, lógica utilizada, etc), na funcionalidade do programa e na documentação do projeto.***
 
 - Desenho da forca:
->   ----
->  |  |
->  |  o
->  | /|\
->  | / \
-> _|_  
+```
+ ----
+ |  |
+ |  o
+ | /|\
+ | / \
+_|_
+```
