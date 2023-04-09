@@ -8,7 +8,7 @@
 
 4. Leia uma frase do usuário e divida a frase em palavras. Mostre todas as palavras  em maiúsculas.
 
-5.  Leia uma frase do usuário e divida a frase em palavras. Mostre todas as palavras em minúsculas mas com a última letra maiúscula.
+5. Leia uma frase do usuário e divida a frase em palavras. Mostre todas as palavras em minúsculas mas com a última letra maiúscula.
 
 6. Leia uma palavra do usuário e uma letra. Depois, verifque se essa letra está na palavra ou não.
 OBS: a letra pode aparecer maiúscula ou minúscula.
