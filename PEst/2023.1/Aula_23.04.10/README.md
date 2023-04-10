@@ -48,9 +48,9 @@
 
     Valores esperados:
 
-    ```calc_area_triangulo(6, 9)``` $\rightarrow$ 27
+    ```calc_area_triangulo(6, 9)``` $\rightarrow$ 27.0
 
-    ```calc_area_triangulo(5, 8)``` $\rightarrow$ 20
+    ```calc_area_triangulo(5, 8)``` $\rightarrow$ 20.0
 
 ---
 
