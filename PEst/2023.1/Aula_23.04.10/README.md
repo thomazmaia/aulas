@@ -84,7 +84,7 @@
 
     Valores esperados:
 
-    ```verifica_quem_tem_mais([0, 1, 'dois'], ['zero']])``` $\rightarrow$ [0, 1, 'dois']
+    ```verifica_quem_tem_mais([0, 1, 'dois'], ['zero'])``` $\rightarrow$ [0, 1, 'dois']
 
     ```verifica_quem_tem_mais([True, False, 'true'], [1, 2, 3, 4, 5])``` $\rightarrow$ [1, 2, 3, 4, 5]
 
