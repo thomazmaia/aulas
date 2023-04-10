@@ -114,10 +114,10 @@
 
     Valores esperados:
 
-    ```verifica_senha("abc123", 1, 10)``` $\rightarrow$ True
+    ```verifica_senha("abc123")``` $\rightarrow$ True
 
-    ```verifica_senha("yufghjb65783nd", 1, 10)``` $\rightarrow$ False
+    ```verifica_senha("yufghjb65783nd")``` $\rightarrow$ False
 
-    ```verifica_senha("123456789", 1, 10)``` $\rightarrow$ False
+    ```verifica_senha("123456789")``` $\rightarrow$ False
 
-    ```verifica_senha("aWsEG@#$sks^", 1, 10)``` $\rightarrow$ False
+    ```verifica_senha("aWsEG@#$sks^")``` $\rightarrow$ False
