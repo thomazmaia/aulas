@@ -6,6 +6,26 @@ class Ponto:
         self.x = x
         self.y = y
 
+    # GETTER do X
+    @property
+    def x(self):
+        return self._x
+    
+    # SETTER do X
+    @x.setter
+    def x(self, x):
+        self._x = x
+
+    # GETTER do Y
+    @property
+    def y(self):
+        return self._y
+    
+    # sETTER do Y
+    @y.setter
+    def y(self, y):
+        self._y = y
+
     def get_info(self):
         quadrante = ''
         if self.x > 0 and self.y > 0:
