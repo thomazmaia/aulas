@@ -1,4 +1,4 @@
-<!-- # Plataforma de estudo de conjuntos
+# Plataforma de estudo de conjuntos
 
 ### O seu projeto consiste em iniciar a criação de uma plataforma de deestudo de conjuntos matemáticos para alunos. A plataforma deve permitir que o aluno crie conjuntos e realize operações com eles.
 
@@ -12,11 +12,11 @@
     - ```del_elemento(id, elemento)``` $\rightarrow$ o usuário informará o conjunto, através do id, e qual elemento quer deletar. Será apagado apenas um por vez. 
     - ```mostrar_conjunto(id)``` $\rightarrow$ essa função mostrará os elementos de um conjunto específico (a partir do seu id).
 
-**NOTA**: Este projeto pode ser feito em equipe de até 4 pessoas e enviado pelo SUAP. Cada membro da equipe deve contribuir com a implementação do programa e com a documentação do projeto. Só serão aceitos os conceitos vistos em sala de aula (if, else, while, for, listas e funções). A nota será composta por:
+**NOTA**: Este projeto pode ser feito em dupla e ser mostrado em sala de aula e enviado pelo SUAP posteriormente (não adianta enviar pelo SUAP sem ter mostrado em sala). A dupla deve estar ciente do funcionamento do código por completo para poder ser arguída. Só serão aceitos os conceitos vistos em sala de aula (if, else, while, for, listas e funções). A nota será composta por:
 - 1 ponto por cada função (solicitada acima) criada corretamente (total: 5 pontos).
 - 1 ponto pela lógica utilizada.
 - 1 ponto pelas proteções implementadas.
 - 1 ponto pela organização, documentação e nomenclatura das variáveis e funções.
 - 2 pontos pelos recursos utilizados no código (estritamente o que foi visto em sala de aula).
 
-*OBS: esse último é mandatório e declassificatório. Ou seja, só use o que foi visto em sala de aula* -->
+*OBS: esse último é mandatório e declassificatório. Ou seja, só use o que foi visto em sala de aula*
