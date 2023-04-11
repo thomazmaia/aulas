@@ -21,6 +21,9 @@
 - [23/03/29](Aula_23.03.29): Encapsulamento
 
 - 23/04/03: Métodos de instância, de classe e estáticos
-<!--- - 23/04/05: [Lista: encapsulamento](../Listas_de_exercicios/Lista_encapsulamento.pdf)
-- 23/04/10: Módulos e pacotes
-- 23/04/12: [Lista: módulos](../Listas_de_exercicios/Lista_modulos_pacotes.pdf) --->
+- 23/04/05: Exercícios sobre encapsulamento
+- [23/04/10](Aula_23.04.10): Correção de exercícios de encapsulamento + módulos e pacotes
+- [23/04/12](Aula_23.04.12): Exercícios sobre módulos e pacotes
+- [23/04/18](Aula_23.04.18): Correção de exercícios sobre módulos e pacotes + lista de encapsulamento
+- [23/04/20](Aula_23.04.20): [Lista: encapsulamento](../Listas_de_exercicios/Lista_encapsulamento.pdf)
+- [23/04/25](Aula_23.04.25): [Lista: módulos](../Listas_de_exercicios/Lista_modulos_pacotes.pdf)
