@@ -1,6 +1,6 @@
 # Plataforma de estudo de conjuntos
 
-### O seu projeto consiste em iniciar a criação de uma plataforma de deestudo de conjuntos matemáticos para alunos. A plataforma deve permitir que o aluno crie conjuntos e realize operações com eles.
+### O seu projeto consiste em iniciar a criação de uma plataforma de de estudo de conjuntos matemáticos para alunos. A plataforma deve permitir que o aluno crie conjuntos e realize operações com eles.
 
 **Requisitos e funcionalidades:**
 -  O usuário pode criar quantos conjuntos quiser. Cada conjunto terá um $id$ (identificador único iniciado em "1").
