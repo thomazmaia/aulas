@@ -6,8 +6,8 @@
 -  O usuário pode criar quantos conjuntos quiser. Cada conjunto terá um $id$ (identificador único iniciado em "1").
 - O programa deve possuir uma interface ("menu"), pelo qual o usuário vai escolher o que fazer (criar conjunto, adicionar elemento, remover elemento e mostrar conjuntos).
 - Deve possuir as seguintes funções (mas não se limite a apenas elas):
-    - ```menu()``` $\rightarrow$ essa função deve criar um menu e \underline{retornar} a opção que o usuário escolher no menu.
-    - ```criar_conjunto()``` $\rightarrow$ essa função deve criar e \underline{retornar} um conjunto vazio (sem elementos).
+    - ```menu()``` $\rightarrow$ essa função deve criar um menu e **retornar** a opção que o usuário escolher no menu.
+    - ```criar_conjunto()``` $\rightarrow$ essa função deve criar e **retornar** um conjunto vazio (sem elementos).
     - ```add_elemento(id, elemento)``` $\rightarrow$ o usuário informará o conjunto, através do id, e qual elemento quer adicionar. Será adicionado apenas um por vez. 
     - ```del_elemento(id, elemento)``` $\rightarrow$ o usuário informará o conjunto, através do id, e qual elemento quer deletar. Será apagado apenas um por vez. 
     - ```mostrar_conjunto(id)``` $\rightarrow$ essa função mostrará os elementos de um conjunto específico (a partir do seu id).
