@@ -7,6 +7,8 @@
     - ```calc_lado(A, B)```: calcula o tamanho de uma aresta definida entre os pontos A e B.
     - ```verifica()```: verifica se é o objeto triângulo é escaleno, isósceles ou equilátero.    
     - ```calc_area()```: calcula a área do objeto triângulo.
+	
+		**Dica**: Procure por "fórmula de Heron de Alexandria"
 
 3. Crie um terceiro arquivo chamado ```Retangulo.py``` contendo a classe ```Retangulo```. Essa classe será comporta por 4 objetos da classe ```Ponto``` e terá os métodos:
 	- ```calc_perimetro()```: calcula o perímetro do retângulo.
