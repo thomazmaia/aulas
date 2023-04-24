@@ -45,5 +45,5 @@
 
 **NOTA**: Este projeto pode ser feito em dupla e deve ser mostrado em sala de aula e enviado pelo SUAP posteriormente (não adianta enviar pelo SUAP sem ter mostrado em sala). A dupla deve estar ciente do funcionamento do código por completo para poder ser arguída. Só serão aceitos os conceitos vistos em sala de aula (if, else, while, for, listas e funções). A nota será composta por:
 - 1 ponto por cada função (acima) criada corretamente
-- 2 ponto2 pelos nomes das variáveis e funções
-- 2 ponto2 pela documentação do código
+- 2 pontos pelos nomes das variáveis e funções
+- 2 pontos pela documentação do código
