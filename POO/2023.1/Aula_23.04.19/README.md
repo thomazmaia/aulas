@@ -5,7 +5,7 @@
 2. Crie um outro arquivo chamado ```Triangulo.py``` contendo a classe ```Triangulo```. Essa classe será composta por 3 objetos da classe ```Ponto``` e terá os métodos:
 
     - ```calc_lado(A, B)```: calcula o tamanho de uma aresta definida entre os pontos A e B.
-    - ```verifica()```: verifica se é o objeto triângulo é escaleno, isósceles ou equilátero.    
+    - ```verifica()```: verifica se o objeto triângulo é, de fato um triângulo e, caso seja, verifique se é escaleno, isósceles ou equilátero.    
     - ```calc_area()```: calcula a área do objeto triângulo.
 	
 		**Dica**: Procure por "fórmula de Heron de Alexandria"
