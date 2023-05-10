@@ -1,15 +1,14 @@
-cadastro = dict()
+jogadores = dict()
 
 for i in range(5):
-    nome = input("Digite o nome: ")
-    pontos = int(input(f"Digite a pontuação de {nome}: "))
-    cadastro[nome] = pontos
-print(cadastro)
+    nome = input("Digite o nome do jogador: ")
+    pontos = int(input(f"Quantos pontos {nome} fez? "))
+    jogadores[nome] = pontos
 
-soma_dos_pontos = 0
-for chave in cadastro.keys():
-    soma_dos_pontos = soma_dos_pontos + cadastro[chave]
+soma_de_pontos = 0
+for _, valor in jogadores.items():
+    soma_de_pontos += valor
 
-media_dos_pontos = soma_dos_pontos / len(cadastro)
+pontuacao_media = soma_de_pontos / len(jogadores)
 
-print(f"A idade média desse cadastro é {media_dos_pontos}")
+print(f"A pontuação média foi {pontuacao_media}")
