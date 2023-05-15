@@ -1,0 +1,8 @@
+LOG: Francisco promovido de Estagiário para Supervisor.
+LOG: Joao contratado como estagiário
+LOG: Francisco contratado como estagiário
+LOG: Joao promovido de Estagiário para Supervisor.
+LOG: Cortando o ponto de Francisco por 5 dias.
+LOG: Cortando o ponto de Francisco por 5 dias.
+LOG: Joao foi demitido.
+LOG: Francisco promovido de Estagiário para Supervisor.
