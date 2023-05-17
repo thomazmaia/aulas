@@ -1,0 +1,22 @@
+{
+    "garrafa": {
+        "categoria": "utensilio",
+        "preco": 4.0
+    },
+    "sabonete": {
+        "categoria": "limpeza",
+        "preco": 5.0
+    },
+    "banana": {
+        "categoria": "grutas",
+        "preco": 2.0
+    },
+    "laranja": {
+        "categoria": "frutas",
+        "preco": 3.0
+    },
+    "abacaxi": {
+        "categoria": "frutas",
+        "preco": 10.0
+    }
+}
