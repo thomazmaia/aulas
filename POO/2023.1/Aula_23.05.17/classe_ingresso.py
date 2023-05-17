@@ -11,7 +11,8 @@ class VIP(Ingresso):
         super().__init__(val + 0.5 * val)
 
 
-ing = Ingresso(50)
+valor = float(input("Digite o valor do ingresso? "))
+ing = Ingresso(valor)
 ing_vip = VIP(ing.valor)
 
 ing.imprime_valor()
