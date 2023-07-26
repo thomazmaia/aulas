@@ -1,5 +1,5 @@
-## Pasta de códigos de Introdução à Programação
-Esta pasta contém os códigos desenvolvidos em sala de aula da disciplina de Introdução à Programação (IntroProg)
+## Pasta de materiais de Introdução à Programação
+Esta pasta contém os materiais da disciplina de Introdução à Programação (IntroProg)
 
 ### Conteúdo
 ~

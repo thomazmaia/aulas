@@ -1,5 +1,5 @@
-## Pasta de códigos de Programação Estruturada
-Esta pasta contém os códigos desenvolvidos em sala de aula da disciplina de Programação Estruturada (PEst)
+## Pasta de materiais de Programação Estruturada
+Esta pasta contém os materiais da disciplina de Programação Estruturada (PEst)
 
 ### Conteúdo
 1. IDE
