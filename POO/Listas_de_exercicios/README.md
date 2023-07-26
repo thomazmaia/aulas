@@ -1,1 +1,0 @@
-*Listas de exercícios utilizadas ao longo do semestre.*
