@@ -1,0 +1,4 @@
+# arquivos de sistema do Mac
+.DS_store
+# configurações do vscode
+.vscode/*
