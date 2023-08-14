@@ -24,7 +24,7 @@
 
 12. Escreva um algoritmo para calcular a redução do tempo de vida de um fumante. Pergunte a quantidade de cigarros fumados por dia e quantos anos ele já fumou. Considere que um fumante perde 30 minutos de vida a cada cigarro, calcule quantos dias de vida um fumante perderá. Exiba o total de dias.
 
-13. Faça um algoritmo que leia o valor de um produto e aplique um desconto de 10%, mostrando o valor original e o valor com desconto
+13. Faça um algoritmo que leia o valor de um produto e aplique um desconto de 10%. Mostre o valor original e o valor com desconto
 
 14. Escreva um algoritmo que pergunte a quantidade de km percorridos por um carro alugado pelo usuário, assim como a quantidade de dias pelos quais o carro foi alugado. Calcule o preço a pagar, sabendo que o carro custa R\$ 60,00 por dia e R\$ 0,15 por km rodado
 
