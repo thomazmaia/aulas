@@ -14,7 +14,7 @@
 
 7. Escreva um algoritmo para ler a quantidade de dias, horas, minutos e segundos fornecidos pelo usuário. Em seguida, transforme todas as quantidades lidas (dias, horas, minutos e segundos) para valores em segundos. Ao final mostre a soma desses valores.
 
-8. Faça um algoritmo que pergunte quanto você ganha por hora e o número de dias trabalhados no mês. Calcule e mostre o total do seu salário no referido mês.
+8. Faça um algoritmo que pergunte quanto você ganha por hora e o número de dias trabalhados no mês. Calcule e mostre o total do seu salário no referido mês, sabendo que um dia de trabalho tem 8h.
 
 9. Faça um algoritmo que calcule e mostre o tempo de uma viagem de carro. Pergunte ao usuário a distância que ele quer percorrer e a velocidade média esperada da viagem.
 
