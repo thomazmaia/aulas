@@ -18,7 +18,7 @@
 8. Crie um programa para converter de binário para decimal usando while.
 
 9. Um inteiro positivo é chamado de número de Armstrong de ordem $n$ se $abc = a^n + b^n + c^n + ... $. Crie um programa para verificar se um número n é um número de Armstrong.
-<br>Ex: 153 = 1*1*1 + 5*5*5 + 3*3*3
+<br>Ex: 153 = 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3
 
 10. Modifique a questão anterior para encontrar todos os números de Armstrong dado um intervalo.
 
