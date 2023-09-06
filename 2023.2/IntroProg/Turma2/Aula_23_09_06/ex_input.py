@@ -1,0 +1,10 @@
+nome = input("Digite seu nome: ")
+idade = int(input("Digite sua idade: "))
+peso = float(input("Digite seu peso: "))
+altura = float(input("Digite sua altura: "))
+endereco = input("Digite seu endereço: ")
+cpf = input("Digite seu CPF: ")
+
+print(f"Nome: {nome} - CPF: {cpf}")
+print(f"Endereço: {endereco}")
+print(f"{idade} anos - {peso}kg - {altura}m")
