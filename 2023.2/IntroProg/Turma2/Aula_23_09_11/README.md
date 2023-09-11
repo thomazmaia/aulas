@@ -29,5 +29,6 @@ Crie um programa que converta dólares (U$) em reais (R$). Solicite ao usuário 
 Construa um programa no qual um usuário informe a sua estatura em metros e o programa converta-a para centímetros
 
 10. **Calculadora de IMC (Índice de Massa Corporal):**
-Solicite ao usuário que insira seu peso (em kg) e altura (em metros). Calcule o IMC e imprima uma mensagem indicando se a pessoa está abaixo do peso, com peso normal, com sobrepeso ou obesa.
+Solicite ao usuário que insira seu peso (em kg) e altura (em metros) e calcule o IMC.
+<br>OBS: procure como é o cálculo do IMC.
 
