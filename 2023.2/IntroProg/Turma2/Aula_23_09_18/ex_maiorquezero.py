@@ -5,3 +5,4 @@ num = int(input("Número: "))
 
 if num > 0:
     print("Número maior que zero")
+    
