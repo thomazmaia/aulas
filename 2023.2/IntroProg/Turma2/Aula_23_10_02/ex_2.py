@@ -1,18 +1,21 @@
+# Leia um número inteiro e diga a qual dia esse número corresponde.
+# Caso não corresponda a nenhum dia, escreva "Dia inválido"
+
 dia = int(input("Número: "))
 
 if dia == 1:
     print("Domingo")
-if dia == 2:
+elif dia == 2:
     print("Segunda")
-if dia == 3:
+elif dia == 3:
     print("Terça")
-if dia == 4:
+elif dia == 4:
     print("Quarta")
-if dia == 5:
+elif dia == 5:
     print("Quinta")
-if dia == 6:
+elif dia == 6:
     print("Sexta")
-if dia == 7:
+elif dia == 7:
     print("Sábado")
-if dia outra coisa:
+else:
     print("Dia inválido")
