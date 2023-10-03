@@ -1,6 +1,6 @@
 ### Instruções:
 
-- Deve ser feito individualmente.
+- Deve ser feito de dupla.
 - Faça cada questão em um arquivo .py diferente (ex: q1.py).
 - Comprima (.zip ou .rar) todos os arquivos e envie pelo SUAP.
 - No horário da tarde o Breno (monitor) estará disponível no laboratório.
