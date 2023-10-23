@@ -5,6 +5,7 @@
 2. Cada questão deve ser feita em um arquivo próprio .py com o nome `q1.py`, `q2.py`, `q3.py`, `q4.py`.
 3. Os quatro arquivos .py devem ser enviados por e-mail (thomaz.maia@ifce.edu.br) até o fim da aula.
 4. No e-mail coloque o nome a dupla e da disciplina.
+
 **OBS: Faça as proteções necessárias para as funções!**
 
 ******Questão 1 - 2 pontos******
@@ -38,7 +39,6 @@ Crie uma função chamada **`media_lista`** que aceita uma lista de números **`
 Exemplo de uso:
 
 ```python
-pythonCopy code
 lista_de_numeros = [1, 2, 3, 4, 5]
 media = media_lista(lista_de_numeros)
 print(media)  # Deve imprimir: 3.0
