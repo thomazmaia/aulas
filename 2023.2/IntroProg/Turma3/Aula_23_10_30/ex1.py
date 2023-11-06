@@ -2,9 +2,7 @@
 
 numero = int(input("Número: "))
 
-eh_par = numero % 2 == 0
-
-if not (eh_par):
-    print("Ímpar")
-else:
+if numero % 2 == 0:
     print("Par")
+else:
+    print("Ímpar")

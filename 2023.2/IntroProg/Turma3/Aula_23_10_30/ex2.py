@@ -7,7 +7,6 @@ numero = int(input("Número: "))
 
 unidade = numero % 10
 dezena = numero // 10
-print(f"{unidade}{dezena}")
 
 if unidade == dezena:
     print("Os dígitos são iguais")
