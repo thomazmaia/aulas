@@ -2,12 +2,8 @@
 
 # Solicitar ao usuário um número para calcular o fatorial
 numero = int(input("Digite um número para calcular o fatorial: "))
-
-# Inicializar o fatorial como 1
-fatorial = 1
-
-# Inicia a quantidade de multiplicações  com zero
-mult = 0
+fatorial = 1 # Inicializar o fatorial como 1
+mult = 0 # Inicia a quantidade de multiplicações  com zero
 
 # Enquanto o número for maior que 1
 while numero >= 1:
@@ -20,4 +16,5 @@ while numero >= 1:
 # Imprimir o fatorial calculado
 print("O fatorial é:", fatorial)
 # Contagem de multiplicações
-print(f"Foram feitas {mult} multiplicações")
+# mult = mult - 1
+print(f"Foram feitas {mult - 1} multiplicações")
