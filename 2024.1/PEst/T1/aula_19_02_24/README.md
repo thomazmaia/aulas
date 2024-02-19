@@ -12,8 +12,10 @@
 5. Crie um programa para determinar se um número inteiro dado é divisível por 2, 3 ou nenhum deles. Utilize uma única linha de código dentro de cada bloco 'if', 'elif' e 'else' para imprimir "divisível por 2", "divisível por 3" ou "não é divisível por 2 ou 3" respectivamente."
 
 6. Crie um programa para ler um número de 5 dígitos e verificar se existe algum dígito que se repete 2 ou mais vezes.
+<br>OBS: **NÃO** converta `N` para string. Trate-o como número!
 
 7. Escreva um programa para verificar se um número n de três dígitos é um palíndromo.
 <br>Ex: 101, 111, ...
+<br>OBS: **NÃO** converta `N` para string. Trate-o como número!
 
 8. O último teorema de Fermat diz que não existem números inteiros a, b e c tais que $a^n + b^n = c^n$ para quaisquer valores de n maiores que 2. Escreva um programa que peça ao usuário para digitar valores para a, b, c e n, os converta em números inteiros e verifique se violam o teorema de Fermat.
