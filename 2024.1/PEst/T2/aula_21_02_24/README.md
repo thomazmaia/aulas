@@ -9,6 +9,7 @@
 4. Crie um código em Python que solicite ao usuário um número e, usando o comando "while", imprima todos os divisores desse número até que o usuário digite "0" para encerrar o programa.
 
 5. Leia um número N e escreva esse número ao contrário usando while.
+<br>OBS: **NÃO** converta `N` para string. Trate-o como número!
 
 6. Gere um número aleatório entre 1 e 9 (incluindo 1 e 9). Peça ao usuário para adivinhar o número e diga se o número é muito baixo, muito alto ou se ele acertou. Caso ele digite “sair” o jogo deve acabar.
 <br>OBS: ```import random``` e ```num = random.randint(1,9)```
