@@ -17,6 +17,6 @@
 8. Crie um código em Python que use o comando ```for``` para percorrer de 0 até n números e calcule o fatorial de cada número e armazene em uma nova lista.
 
 9. Um inteiro positivo é chamado de número de Armstrong de ordem n se $abc = a^n + b^n + c^n+...$ . Crie um programa usando ```for``` para encontrar todos os números de Armstrong dado um intervalo. 
-<br>Ex: 153 = 1*1*1 + 5*5*5 + 3*3*3
+<br>Ex: 153 = 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3
 
 10. Crie um código em Python que use o comando ```for``` para calcular o valor da somatória dos números inteiros positivos menores que n que são divisíveis por 3 ou 5. Onde n é um número inteiro inserido pelo usuário.
