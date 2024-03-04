@@ -3,6 +3,7 @@ def saudacao(nome): # cabeçalho da função
     print(f"Bem vindo(a) {nome}")
 
 
+
 # PROGRAMA PRINCIPAL:
 saudacao("XICO")
 saudacao("MARIA")
