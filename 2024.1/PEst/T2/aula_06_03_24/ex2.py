@@ -24,4 +24,5 @@ def verifica_numero(N : float):
         return "Negativo"
 
 # PROGRAMA PRINCIPAL
-print(verifica_numero(10))
+N = float(input("N = "))
+print(verifica_numero(N))
