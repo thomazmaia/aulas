@@ -19,7 +19,7 @@
     - Saída: "nohtyP"
     
 
-1. **Contador de Vogais:**
+2. **Contador de Vogais:**
 - **Entrada:** Uma string.
 - **Saída:** Um número inteiro representando a quantidade de vogais (a, e, i, o, u) na string (maiúsculas e minúsculas).
 - **Exemplo:**
@@ -27,7 +27,7 @@
     - Saída: 4
     
 
-1. **Palíndromo:**
+3. **Palíndromo:**
 - **Entrada:** Uma string.
 - **Saída:** Um valor booleano (True ou False) indicando se a string é um palíndromo (se lida da mesma forma de trás para frente, desconsiderando espaços e maiúsculas/minúsculas).
 - **Exemplo:**
@@ -37,7 +37,7 @@
     - Saída: False
     
 
-1. **Remover Espaços Duplicados:**
+4. **Remover Espaços Duplicados:**
 - **Entrada:** Uma string.
 - **Saída:** Uma nova string com todos os espaços em branco duplicados (dois ou mais espaços seguidos) reduzidos a um único espaço.
 - **Exemplo:**
@@ -45,7 +45,7 @@
     - Saída: "Olá, mundo! Este é um exemplo."
     
 
-1. **Encontrar a Palavra Mais Longa:**
+5. **Encontrar a Palavra Mais Longa:**
 - **Entrada:** Uma string.
 - **Saída:** A palavra mais longa da string. Caso haja empate, retorne a primeira palavra mais longa encontrada.
 - **Exemplo:**
