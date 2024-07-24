@@ -33,7 +33,6 @@
 - **Exemplo:**
     - Entrada: "Arara"
     - Saída: True
-    - Entrada: "Python"
     - Saída: False
     
 
