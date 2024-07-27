@@ -40,7 +40,7 @@
 - **Entrada:** Uma string.
 - **Saída:** Uma nova string com todos os espaços em branco duplicados (dois ou mais espaços seguidos) reduzidos a um único espaço.
 - **Exemplo:**
-    - Entrada: "Olá, mundo!      Este é um exemplo."
+    - Entrada: "Olá, mundo! &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Este é um exemplo."
     - Saída: "Olá, mundo! Este é um exemplo."
     
 
