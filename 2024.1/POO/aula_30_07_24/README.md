@@ -2,7 +2,6 @@
 
 ## Lista de Exercícios - Revisão de Classes e Objetos
 
-<aside>
 💡 **Objetivo:** Relembrar e aplicar os conceitos de Classes, Objetos, Métodos e Atributos.
 
 **Instruções:** Crie um arquivo Python (.py) para cada exercício e salve-os com nomes descritivos (ex: ex1.py, ex2.py). 
@@ -12,7 +11,7 @@
 - Utilize nomes de variáveis descritivos.
 - Inclua comentários para explicar o que seu código faz.
 - Teste seu código com diferentes entradas para garantir que ele funciona corretamente.
-</aside>
+
 
 1. Crie uma classe chamada `Cachorro` com os atributos `nome`, `raca` e `idade`. Crie um objeto da classe `Cachorro` chamado **rex** com os seguintes valores para os atributos:
 - nome: Rex
