@@ -18,9 +18,13 @@ L2 = [4, 5, 6]
 LC = L1
 print(f"L1: {L1}")
 print(f"LC: {LC}")
-L1 = [0]
+L1[0] = 'x'
+LC[0] = 'y'
 print(f"L1: {L1}")
 print(f"LC: {LC}")
+COPIA = L1[:]
+L1[0] = 'w'
+COPIA[0] = 'z'
 
 # Fatiamento (slicing)
 L = ['a', 1, 'b', 2, 'c', 3, 'd', 4]
