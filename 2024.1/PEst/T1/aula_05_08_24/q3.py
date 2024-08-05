@@ -11,10 +11,6 @@ def retorna_maior(L : list):
 
 
 
-
-
-
-
-lista_de_numeros = [-1, -3, -4.5, -9, -5.7, -12.3, -20.4, -12.3]
+lista_de_numeros = [10, -12, 200, 13]
 
 print(retorna_maior(lista_de_numeros))
