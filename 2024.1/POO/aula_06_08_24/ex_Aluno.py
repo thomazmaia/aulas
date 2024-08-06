@@ -29,7 +29,7 @@ class Aluno:
     
     @staticmethod
     def nota_media():
-        return 7.0
+        return 6.0
 
 
 
@@ -37,4 +37,6 @@ a1 = Aluno("Yasmin", 27, [6, 7, 8])
 a2 = Aluno("João Victor", 17, [8, 8.3, 9])
 a3 = Aluno("Lara", 17, [7.8, 7.9, 8.5])
 a4 = Aluno("João Paulo", 18, [5.5, 6, 4.5, 7])
-print(Aluno.aluno_mais_velho())
+
+if a1.media_notas() >= a1.nota_media():
+    print(f"{a1.nome} passou!")
