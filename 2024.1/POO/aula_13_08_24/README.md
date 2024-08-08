@@ -1,4 +1,4 @@
-# Exercícios - Métodos de insância/classe/estático
+# Exercícios - Métodos de instância/classe/estático
 
 1. Crie uma classe chamada `Ponto`. Essa classe deve receber dois valores X, Y (float) no seu construtor. Faça os getters e setters para esses atributos serem
 chamados pelo main abaixo:
