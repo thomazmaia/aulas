@@ -16,4 +16,4 @@
 
 8. Peça ao usuário para inserir uma série de números inteiros em uma lista. Em seguida, ordene a lista em ordem crescente usando o método `insert` para inserir cada número na posição correta. Por fim, imprima a lista ordenada.
 
-9. Crie um jogo de adivinhação em que o programa escolhe aleatoriamente um número entre 1 e 100 e o armazena em uma lista. O jogador deve tentar adivinhar o número. O programa deve permitir que o jogador insira palpites, remover o número da lista quando ele acertar e continuar até que o jogador adivinhe corretamente.
+9. Crie um jogo de adivinhação em que o programa escolhe aleatoriamente um número entre 1 e 100 e o armazena em uma lista. O jogador deve tentar adivinhar o número. O programa deve permitir que o jogador insira palpites. Caso o palpite seja maior que o número, insira esse palpite uma lista de números maiores. Caso o palpite seja menor, insira o palpite numa lista de números menores. Caso o usuário acerte, mostre as duas listas.
