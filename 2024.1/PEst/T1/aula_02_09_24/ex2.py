@@ -1,0 +1,1 @@
+# Escreva um programa que crie um dicionário com 5 palavras e suas definições. O programa deve solicitar ao usuário cada chave e cada valor. Após adicionar as 5 palavras, pergunte se o usuário quer a-adicionar um novo elemento, r-remover um elemento do dicionário, l-limpar o dicionário ou pesquisar uma definição a partir da chave.
