@@ -11,3 +11,6 @@
 - [Informática Básica](/2024.1/InfoBas/)
 - [Programação Estruturada](/2024.1/PEst/)
 - [Programação Orientada a Objetos](/2024.1/POO/)
+### 2024.2
+- [Programação Estruturada](/2024.2/pest/)
+- [Desenvolvimento Web I](/2024.2/web1/)
