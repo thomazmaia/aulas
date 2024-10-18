@@ -1,4 +1,4 @@
-# Exercícios - BÁSICOS
+# Exercícios - VARIÁVEIS E OPERADORES
 1. O volume de uma esfera com raio `r` é dado por $\frac{4}{3}\pi r^3$. Qual é o volume de uma esfera com raio 5? 
 <br>OBS: inicie a variável r com o valor 5.
 
