@@ -30,7 +30,7 @@
 15. Crie um programa que implemente uma função chamada ```calcular_imc``` que receba o peso e a altura de uma pessoa como parâmetros, calcule o Índice de Massa Corporal (IMC) e retorne o valor calculado. No programa principal, solicite o peso e a altura ao usuário e exiba o resultado, acompanhado de uma mensagem indicando a classificação do IMC.
 <br>OBS: pesquise no Google a fórmula do cálculo do IMC.
 	
-16. Desenvolva uma função chamada ```contar_vogais``` que receba uma string como parâmetro e retorne a quantidade de vogais presentes na string. No programa principal, solicite ao usuário uma palavra ou frase e exiba o número de vogais encontrado.
+~~16. Desenvolva uma função chamada ```contar_vogais``` que receba uma string como parâmetro e retorne a quantidade de vogais presentes na string. No programa principal, solicite ao usuário uma palavra ou frase e exiba o número de vogais encontrado.~~
 
 17. Implemente um programa que contenha uma função chamada ```gerar_tabuada``` que receba um número inteiro como parâmetro e exiba a tabuada de multiplicação de 1 a 10 para o número informado. Solicite ao usuário um número e chame a função para exibir a tabuada.
 
