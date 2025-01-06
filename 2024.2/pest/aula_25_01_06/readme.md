@@ -16,7 +16,7 @@
 - Indexação de strings
 - Fatiamento (slicing) de strings
 - Operações com strings (+ concatenação e * repetição)
--* Métodos de strings
+- Métodos de strings (*)
 
 4. Listas
 - O que são listas
