@@ -1,151 +1,137 @@
 # Lista de Exercícios - Strings
 
-1. **Função de Primeira e Última Letra**
+1. **Função de Primeira e Última Letra**  
+   Escreva uma função chamada `primeiro_e_ultimo` que receba uma string como entrada e retorne uma nova string contendo apenas o primeiro e o último caractere da string original.
 
-   **Enunciado:** Desenvolva uma função chamada `primeiro_e_ultimo` que recebe uma palavra e retorna a primeira e a última letra dela.
-
-   **Exemplo:**
+   **Exemplo de funcionamento:**  
    ```python
-   Entrada: "Python"
+   Entrada: "Python"  
    Saída: "Pn"
    ```
 
-2. **Substring por Índices**
+2. **Substring por Índices**  
+   Crie uma função chamada `intervalo` que receba uma string e dois índices inteiros. A função deve retornar a substring que está entre esses dois índices, incluindo o caractere no primeiro índice, mas excluindo o do último.
 
-   **Enunciado:** Faça uma função chamada `intervalo` que receba uma palavra e dois números. A função deve devolver a parte da palavra entre esses números.
-
-   **Exemplo:**
+   **Exemplo de funcionamento:**  
    ```python
-   Entrada: "Python", 1, 4
+   Entrada: intervalo("Python", 1, 4)  
    Saída: "yth"
    ```
 
-3. **Reverter String**
+3. **Reverter String**  
+   Escreva uma função chamada `reverter` que aceite uma string como entrada e retorne a string invertida.
 
-   **Enunciado:** Crie uma função chamada `reverter` que receba uma palavra e devolva a palavra de trás para frente.
-
-   **Exemplo:**
+   **Exemplo de funcionamento:**  
    ```python
-   Entrada: "Python"
+   Entrada: reverter("Python")  
    Saída: "nohtyP"
    ```
 
-4. **Contagem de Caracteres**
+4. **Repetir Palavra**  
+   Crie uma função chamada `repetir_palavra` que receba uma string e um número inteiro `n` e retorne a string repetida `n` vezes.
 
-   **Enunciado:** Desenvolva uma função chamada `conta_letras` que receba uma palavra e devolva a quantidade de caracteres nela.
-
-   **Exemplo:**
+   **Exemplo de funcionamento:**  
    ```python
-   Entrada: "Python"
+   Entrada: repetir_palavra("Oi", 3)  
+   Saída: "OiOiOi"
+   ```
+
+5. **Primeiros N Caracteres**  
+   Escreva uma função chamada `primeiros_n` que receba uma string e um número inteiro `n` e retorne os primeiros `n` caracteres da string.
+
+   **Exemplo de funcionamento:**  
+   ```python
+   Entrada: primeiros_n("Programar", 5)  
+   Saída: "Progr"
+   ```
+
+6. **Últimos N Caracteres**  
+   Crie uma função chamada `ultimos_n` que receba uma string e um número inteiro `n` e retorne os últimos `n` caracteres da string.
+
+   **Exemplo de funcionamento:**  
+   ```python
+   Entrada: ultimos_n("Programar", 4)  
+   Saída: "amar"
+   ```
+
+7. **Substituir Primeira Letra**  
+   Escreva uma função chamada `trocar_primeira_letra` que receba uma string e substitua o primeiro caractere por um `#`.
+
+   **Exemplo de funcionamento:**  
+   ```python
+   Entrada: trocar_primeira_letra("Python")  
+   Saída: "#ython"
+   ```
+
+8. **Caracteres Intercalados**  
+   Crie uma função chamada `intercalados` que receba uma string e retorne apenas os caracteres nas posições pares da string.
+
+   **Exemplo de funcionamento:**  
+   ```python
+   Entrada: intercalados("abcdef")  
+   Saída: "ace"
+   ```
+
+9. **Contar Comprimento**  
+   Escreva uma função chamada `comprimento_string` que receba uma string como entrada e retorne o número de caracteres da string.
+
+   **Exemplo de funcionamento:**  
+   ```python
+   Entrada: comprimento_string("Python")  
    Saída: 6
    ```
 
-5. **Repetir String**
+10. **Palíndromo Simples**  
+    Crie uma função chamada `palindromo_simples` que verifique se uma string é igual à sua reversa. Retorne `True` ou `False`.
 
-   **Enunciado:** Crie uma função chamada `repete_palavra` que receba uma palavra e um número e devolva a palavra repetida o número de vezes informado.
-
-   **Exemplo:**
-   ```python
-   Entrada: "Code", 3
-   Saída: "CodeCodeCode"
-   ```
-
-6. **Alternar Letras**
-
-   **Enunciado:** Escreva uma função `alterna_letras` que receba uma palavra e retorne uma nova palavra alternando letras maiúsculas e minúsculas.
-
-   **Exemplo:**
-   ```python
-   Entrada: "python"
-   Saída: "PyThOn"
-   ```
-
-7. **Letra no Meio**
-
-   **Enunciado:** Desenvolva uma função `letra_do_meio` que receba uma palavra de tamanho ímpar e retorne a letra do meio.
-
-   **Exemplo:**
-   ```python
-   Entrada: "Python"
-   Saída: "t"
-   ```
-
-8. **Concatenação Simples**
-
-   **Enunciado:** Crie uma função `concatena_palavras` que receba duas palavras e devolva a concatenação das duas.
-
-   **Exemplo:**
-   ```python
-   Entrada: "Hello", "World"
-   Saída: "HelloWorld"
-   ```
-
-9. **Palíndromo Simples**
-
-   **Enunciado:** Escreva uma função `palindromo` que receba uma palavra e verifique se ela é um palíndromo (mesma palavra ao contrário).
-
-   **Exemplo:**
-   ```python
-   Entrada: "arara"
-   Saída: True
-   ```
-
-10. **Comparação de Tamanhos**
-
-    **Enunciado:** Desenvolva uma função `compara_tamanho` que receba duas palavras e indique qual delas é maior.
-
-    **Exemplo:**
+    **Exemplo de funcionamento:**  
     ```python
-    Entrada: "Python", "Java"
+    Entrada: palindromo_simples("arara")  
+    Saída: True
+    ```
+
+11. **String Sem Espaços**  
+    Escreva uma função chamada `remover_espacos` que remova os espaços do início e do fim de uma string usando fatiamento.
+
+    **Exemplo de funcionamento:**  
+    ```python
+    Entrada: remover_espacos("  Python ")  
     Saída: "Python"
     ```
 
-11. **Troca de Letras**
+12. **Duplicar Primeira Metade**  
+    Crie uma função chamada `duplicar_metade` que receba uma string e retorne a primeira metade da string duplicada.
 
-    **Enunciado:** Escreva uma função `troca_letras` que troque todas as ocorrências de uma letra específica em uma palavra por outra informada.
-
-    **Exemplo:**
+    **Exemplo de funcionamento:**  
     ```python
-    Entrada: "banana", "a", "o"
-    Saída: "bonono"
+    Entrada: duplicar_metade("Programar")  
+    Saída: "ProPro"
     ```
 
-12. **Primeira Metade**
+13. **Trocar Metades**  
+    Escreva uma função chamada `trocar_metades` que troque a primeira metade de uma string pela segunda metade e retorne a nova string.
 
-    **Enunciado:** Crie uma função `primeira_metade` que retorne a primeira metade de uma palavra.
-
-    **Exemplo:**
+    **Exemplo de funcionamento:**  
     ```python
-    Entrada: "Python"
-    Saída: "Pyt"
+    Entrada: trocar_metades("Pythonista")  
+    Saída: "istaPython"
     ```
 
-13. **Última Letra**
+14. **Inverter Metade Direita**  
+    Crie uma função chamada `inverter_direita` que receba uma string e inverta apenas a segunda metade dela.
 
-    **Enunciado:** Escreva uma função `ultima_letra` que receba uma palavra e devolva sua última letra.
-
-    **Exemplo:**
+    **Exemplo de funcionamento:**  
     ```python
-    Entrada: "Python"
-    Saída: "n"
+    Entrada: inverter_direita("Pythonista")  
+    Saída: "Pythontsni"
     ```
 
-14. **Repetição de Caractere**
+15. **Letra Central**  
+    Escreva uma função chamada `letra_central` que receba uma string de tamanho ímpar e retorne o caractere central.
 
-    **Enunciado:** Crie uma função `repete_letra` que receba uma palavra e uma letra e devolva quantas vezes essa letra aparece.
-
-    **Exemplo:**
+    **Exemplo de funcionamento:**  
     ```python
-    Entrada: "banana", "a"
-    Saída: 3
+    Entrada: letra_central("Python")  
+    Saída: "h"
     ```
 
-15. **Maiúscula Inicial**
-
-    **Enunciado:** Desenvolva uma função `maiuscula_inicial` que transforme apenas a primeira letra de uma palavra em maiúscula.
-
-    **Exemplo:**
-    ```python
-    Entrada: "python"
-    Saída: "Python"
-    
