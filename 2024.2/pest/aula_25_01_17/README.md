@@ -1,4 +1,4 @@
-# Lista de exzercícios sobre Listas (Básico)
+# Lista de exercícios sobre Listas (Básico)
 
 1. Dada a lista `lista = [20, 76, 94, 60, 28, 65, 4, 69, 71, 22]` responda qual sub-lista é gerada após cada código a seguir:
     1. `lista[3:8]`
