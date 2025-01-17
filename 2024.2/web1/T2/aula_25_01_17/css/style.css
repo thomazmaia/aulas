@@ -1,0 +1,21 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+}
+
+a {
+    color: yellow;
+    background-color: blue;
+}
+
+a:hover{
+    color: blue;
+    background-color: yellow;
+    font-size: 50px;
+}
+
+.minhaDiv {
+    width: 200px;
+    height: 30px;
+    background-color: blueviolet;
+}
