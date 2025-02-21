@@ -14,3 +14,6 @@
 ### 2024.2
 - [Programação Estruturada](/2024.2/pest/)
 - [Desenvolvimento Web I](/2024.2/web1/)
+### 2025.1
+- [Programação Estruturada](/2025.1/pest/)
+- [Desenvolvimento Web I](/2025.1/web1/)
