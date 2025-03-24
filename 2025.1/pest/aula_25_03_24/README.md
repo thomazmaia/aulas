@@ -1,4 +1,4 @@
-# Exercícios - FOR
+# Lista de Exercícios 4 - FOR
 
 1. Crie um código em Python que use um ```for``` loop para imprimir todos os números pares de 0 a 20 (inclusive).
 
