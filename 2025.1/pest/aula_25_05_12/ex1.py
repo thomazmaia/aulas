@@ -1,15 +1,9 @@
-# 1 - Crie uma FUNÇÃO que receba uma lista de notas de um aluno e RETORNE a média desse aluno. Teste com as seguintes notas:
-# notas = [7, 7.5, 8, 10, 5.5]
+# 1 - Crie uma lista de nomes de frutas. Em seguida, peça ao usuário para inserir o nome de uma fruta e verifique se essa fruta está na lista. Exiba uma mensagem informando se a fruta está ou não na lista.
 
-def calcular_media(lista_de_notas : list):
-    soma = 0
-    for nota in lista_de_notas:
-        soma = soma + nota
+frutas = ['uva', 'abacaxi', 'morango', 'melancia']
 
-    media = soma/len(lista_de_notas)
-    return media
+fruta = input("Digite uma fruta: ")
 
-
-notas = [7, 7.5, 8, 10, 5.5]
-media = calcular_media(notas)
-print(media)
+for item in frutas:
+    if(item == fruta):
+        print("A fruta está na lista")
