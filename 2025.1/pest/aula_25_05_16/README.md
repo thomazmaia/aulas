@@ -1,6 +1,6 @@
 # Lista de exercícios - Listas (2)
 
-1. Escreva um programa que peça ao usuário para insetir números inteiros em uma lista até que ele digite `0`. Em seguida, o programa deve imprimir a lista resultante. 
+1. Escreva um programa que peça ao usuário para inserir números inteiros em uma lista até que ele digite `0`. Em seguida, o programa deve imprimir a lista resultante. 
 
 2. Dada uma lista de nomes de frutas, crie um programa que peça ao usuário para digitar o nome de uma fruta para remover da lista. Certifique-se de que a fruta exista na lista antes de removê-la e imprima a lista resultante.
 
