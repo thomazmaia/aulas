@@ -1,4 +1,4 @@
-# Lista de exercícios - Listas (1)
+# Lista de exercícios - Listas (2)
 
 1. Escreva um programa que peça ao usuário para insetir números inteiros em uma lista até que ele digite `0`. Em seguida, o programa deve imprimir a lista resultante. 
 
