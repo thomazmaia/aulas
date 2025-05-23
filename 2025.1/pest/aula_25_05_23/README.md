@@ -1,6 +1,6 @@
 # Lista de exercícios - Listas (3)
 
-1 . Crie uma lista de listas com 3 elementos em cada e mostre elemento a elemento dessa lista de listas.
+1. Crie uma lista de listas com 3 elementos em cada e mostre elemento a elemento dessa lista de listas.
 
 2. Crie um programa que peça ao usuário para especificar o número de linhas e colunas de uma matriz. Em seguida, preencha a matriz com números inteiros fornecidos pelo usuário. Use listas aninhadas para representar a matriz.
 
