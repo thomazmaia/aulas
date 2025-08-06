@@ -1,0 +1,19 @@
+body {
+    text-align:  center;
+}
+
+.botao {
+    font-size: 50px;
+}
+
+.botao:hover {
+    background-color: yellow;
+}
+
+#principal{
+    background-color: lightblue;
+    margin-left: 60px;
+    margin-right: 60px;
+    border: 5px solid;
+    padding: 10px;
+}
