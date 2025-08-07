@@ -8,6 +8,7 @@ body {
 
 .botao:hover {
     background-color: yellow;
+    cursor: pointer;
 }
 
 #principal{
