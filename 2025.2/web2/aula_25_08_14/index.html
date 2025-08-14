@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="aplicativo">
+        <h1>CALCULADORA 1.0</h1>
+        
+        <div id="visor">0</div>
+
+        <div id="teclas">
+            <div id="linha">
+                <button class="botao" onclick="mostrar(event)">7</button>
+                <button class="botao" onclick="mostrar(event)">8</button>
+                <button class="botao" onclick="mostrar(event)">9</button>
+                <button class="botao operacao">/</button>
+            </div>
+            <div id="linha">
+                <button class="botao">4</button>
+                <button class="botao">5</button>
+                <button class="botao">6</button>
+                <button class="botao operacao">*</button>                
+            </div>
+            <div id="linha">
+                <button class="botao">1</button>
+                <button class="botao">2</button>
+                <button class="botao">3</button>
+                <button class="botao operacao">-</button>            
+            </div>
+            <div id="linha">
+                <button class="botao">0</button>
+                <button class="botao">.</button>
+                <button class="botao limpar" onclick="limpar(event)">C</button>
+                <button class="botao operacao" onclick="mostrar(event)">+</button>                            
+            </div>
+            <div id="linha">
+                <button class="botao resultado" onclick="calcular()">=</button>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

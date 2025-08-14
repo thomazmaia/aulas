@@ -1,0 +1,66 @@
+body {
+    background-color: lightgrey;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#aplicativo {
+    width: 350px;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: white;
+    border: 2px solid;
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#visor {
+    font-family: 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: beige;
+    height: 30px;
+    padding: 8px 13px;
+    margin-bottom: 10px;
+    border: 1px dashed;
+    font-size: 25px;
+    text-align: right;
+}
+
+#teclas {
+    background-color: beige;    
+    padding: 8px 10px;
+    border: 1px dashed;
+}
+
+#linha {
+    display: flex;
+    flex-direction: row;
+}
+
+.botao {
+    flex: 1;
+    background-color: antiquewhite;
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.botao:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.operacao {
+    background-color: lightpink;
+}
+
+.resultado {
+    background-color: lightgreen;
+}
+
+.limpar {
+    background-color: lightcoral;
+}
