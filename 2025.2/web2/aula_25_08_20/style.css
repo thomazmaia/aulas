@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    margin: 10px;
+    background-color: aliceblue;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: cornflowerblue;
+}
+
+p, ol, ul, li {
+    color: gray;
+    font-size: 20px;
+}
+
+
+.code {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: lightcoral;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+}
