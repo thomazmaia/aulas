@@ -5,7 +5,7 @@ nome = "Thomaz Maia";
 // "print" no console:
 console.log(nome);
 console.log("Olá " + nome); // Concatenação de strings
-console.log(`Olá ${nome}`); // Template Strings (acento agudo: `)
+console.log(`Olá ${nome}`); // Template Strings (crase: `)
 
 console.log("----------------")
 
