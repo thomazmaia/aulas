@@ -8,3 +8,9 @@
 var obj_txt = document.querySelector(".txt");
 
 obj_txt.textContent = "OLÁ MUNDO";
+
+var obj_img = document.querySelector("#img");
+
+console.log(obj_img.getAttribute("src"));
+
+obj_img.setAttribute("src", "img/volvo.jpg");
