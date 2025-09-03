@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revisão D.O.M</title>
+</head>
+<body>
+    <h1>D.O.M - Document Object Model</h1>
+    <p>D.O.M é a estrutura organizacional utilizada pelo navegador web (Google Chrome) para representar uma página HTML. Essa estrutura carrega todos os elementos da página e pode ser alterada através do JavaScript (JS). Em outras palavras, é através dele que alteramos uma página web.</p>
+    <img src="img/dom.gif">
+
+    <h2>1. Como ACESSAR elementos</h2>
+    <ol>
+        <li><b>getElementById()</b> - Seleciona um elemento da página através do seu ID (único!). O retorno dessa função é um objeto que é o próprio elemento.</li>
+        <li><b>getElementsByClassName()</b> - Seleciona todos os elemento da página que contenham a mesma classe. O retorno dessa função é um array/lista de objetos equivalentes aos elementos da página web.</li>
+        <li><b>querySelector()</b> - Seleciona o primeiro elemento dado o id/classe fornecido.</li>
+        <li><b>querySelectorAll()</b> - Seleciona todos os elementos dado o id/classe fornecido. O retorno dessa função é semelhante ao getElementsByClassName (um array de elementos).</li>
+    </ol>
+    <h2>2. Como MANIPULAR elementos</h2>
+    <p>Depois de selecionar o objeto desejado, você consegue acessar suas propriedades. Cada elemento tem propriedades únicas.</p>
+    <p>Ex:</p>
+    <pre>var obj_txt = document.querySelector(".txt");</pre>
+    <pre>obj_txt.textContent = "Novo texto";</pre>
+    <h2>3. Como acessar e manipular ATRIBUTOS</h2>
+    <p>Assim como é possível manipular elementos, também é possível manipular seus atributos.</p>
+    <p>Ex:</p>
+    <pre>var obj_img = document.querySelector("#img");</pre>
+    <pre>obj_img.setAttribute("src", "nova_imagem.jpg");</pre>
+</body>
+</html>
