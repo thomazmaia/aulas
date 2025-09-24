@@ -4,7 +4,7 @@
 2. **Mensagem Personalizada:** Crie uma função chamada **`mensagem_personalizada`** que recebe o nome de uma pessoa como argumento e retorna uma mensagem de saudação personalizada, como "Olá, [Nome]! Como você está?". Peça ao usuário para inserir seu nome e exiba a mensagem.
 3. **Verificador de Número Par:** Crie uma função chamada **`eh_par`** que recebe um número como argumento e retorna True se o número for par e False se for ímpar. Peça ao usuário para inserir um número e informe se é par ou ímpar.
 4. **Calculadora de Fatorial/Binomial:** Crie uma função chamada **`fatorial`** que calcula o fatorial de um número inteiro não negativo. Em seguida, crie outra função chamada **`comb`** que calcula o coeficiente binomial ${n}\choose{p}$ usando a função **`fatorial`**. Peça ao usuário para inserir dois números inteiros n e p e calcule o coeficiente binomial.
-    - OBS: O coeficiente binomial é dado por:
+OBS: O coeficiente binomial é dado por:
     
     $$ {{n}\choose{p}} = \frac{n!}{p!(n-p)!} $$
     
