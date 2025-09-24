@@ -6,9 +6,7 @@
 4. **Calculadora de Fatorial/Binomial:** Crie uma função chamada **`fatorial`** que calcula o fatorial de um número inteiro não negativo. Em seguida, crie outra função chamada **`comb`** que calcula o coeficiente binomial ${n}\choose{p}$ usando a função **`fatorial`**. Peça ao usuário para inserir dois números inteiros n e p e calcule o coeficiente binomial.
     - OBS: O coeficiente binomial é dado por:
     
-    $$
-    {{n}\choose{p}} = \frac{n!}{p!(n-p)!}
-    $$
+    $$ {{n}\choose{p}} = \frac{n!}{p!(n-p)!} $$
     
 5. **Conversor de Moedas:** Crie uma função chamada **`conversor_moeda`** que recebe um valor em real brasileiro (BRL) e uma taxa de câmbio como argumentos e retorna o valor equivalente em dólares americanos (USD). Peça ao usuário para inserir o valor em BRL e a taxa de câmbio e exiba o valor correspondente em USD.
 6. **Contador de Dígitos:** Crie uma função chamada **`contar_digitos`** que recebe um número inteiro como argumento e retorna a quantidade de dígitos no número. Peça ao usuário para inserir um número e exiba a quantidade de dígitos.
