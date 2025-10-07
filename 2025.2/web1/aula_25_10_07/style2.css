@@ -1,0 +1,39 @@
+.box1 {
+    width: 200px;
+    height: 150px;
+    border: 3px solid;
+    border-radius: 10px;
+    background-color: lightblue;
+    margin: 20px;
+    padding: 20px;
+}
+
+.box2 {
+    width: 250px;
+    height: 100px;    
+    background-color: lightgreen;
+    border: 2px solid;
+    border-color: red;
+    border-radius: 20px;
+    margin: 30px;
+    padding: 20px;
+}
+
+.box3 {
+    width: 300px;
+    height: 200px;
+    background-color: lightcoral;
+    border: 5px solid blue;
+    border-radius: 30px;
+    margin: 25px;
+    padding: 10px;
+}
+
+.box4 {
+    width: 200px;
+    height: 200px;
+    background-color: lightyellow;
+    border: 7px solid purple;
+    border-radius: 50px;
+    margin: 40px
+}
