@@ -1,0 +1,11 @@
+.box {
+    width: 200px;
+    height: 400px;
+    padding: 5px;    
+    border: 20px solid;
+    border-color: red green blue yellow;    
+    border-radius: 5em;
+    border-top-left-radius: 0px;    
+    margin: 50px;
+    background-color: lightcoral;
+}
