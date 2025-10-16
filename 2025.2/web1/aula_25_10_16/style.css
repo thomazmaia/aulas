@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    background-color: #f9f9f9;
+}
+
+header {
+    background-color: green;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.bemvindo {
+    padding: 20px;
+    margin-top: 15px;
+    text-align: center;
+    position: relative;
+}
+
+.conheca {
+    margin: 20px;
+    padding: 15px;
+    background-color: lightcoral;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    text-align: center;
+}
