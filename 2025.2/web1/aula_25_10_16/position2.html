@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            padding: 0 20px;
+            margin-bottom: 100px; 
+        }
+
+        .label {
+            font-weight: bold;
+            margin: 20px 0px 10px;
+        }
+
+        .container {
+            background-color: lightgray;
+            position: relative;
+            border: 2px dashed gray;
+            padding: 40px;
+            height: 200px;
+            margin-bottom: 40px;
+        }
+
+        .box {
+            background-color: #2196f3;
+            color: white;
+            padding: 10px;
+            width: 150px;
+        }
+
+        .static {
+            position: static;
+        }
+
+        .relative {
+            position: relative;
+            top: 20px;
+            left: 20px;
+            background-color: #4caf50;
+        }
+
+        .absolute {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background-color: #f44336;
+        }
+
+        .fixed {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #9c27b0;
+            z-index: 999;
+        }
+
+        .sticky-section {
+            height: 1000px;
+            margin-bottom: 50px;
+        }
+
+        .sticky {
+            position: sticky;
+            top: 0px;
+            background-color: #ff9800;
+            padding: 10px;
+            z-index: 100;
+        }
+
+        .filler {
+            height: 800px;
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Exemplos de valores para position</h2>
+    <div class="label">position: static (padrão)</div>
+    <div class="container">
+        <div class="box static">Elemento static</div>
+    </div>
+
+    <div class="label">position: relative</div>
+    <div class="container">
+        <div class="box relative">Elemento relative (20px para baixo e para direita)</div>
+    </div>    
+
+    <div class="label">position: absolute</div>
+    <div class="container">
+        <div class="box absolute">Elemento absolute (em relação ao container)</div>
+    </div>    
+    
+    <div class="label">position: fixed</div>
+    <div class="container">
+        <div class="box fixed">Elemento fixed (fixo no canto inferior direito da janela)</div>
+    </div>        
+
+    <div class="label">position: sticky</div>
+    <div class="container">
+        <div class="box sticky">Elemento sticky (grudado no topo ao rolar)</div>
+        <div class="filler">Conteúdo de rolagem...</div>
+    </div>            
+
+</body>
+</html>
