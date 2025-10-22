@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Minha página em FLASK</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h1>Bem vindo(a) ao Flask, {{ nome }}</h1>
+    <p>Essa página usa templates e arquivos estáticos.</p>
+</body>
+</html>
