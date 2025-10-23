@@ -7,7 +7,9 @@
      <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
-    <h1>Bem vindo(a) ao Flask, {{ var1 }}</h1>
-    <p>Essa página usa templates e arquivos estáticos, entendeu, {{ var2 }}?!</p>
+    <h1>Usuário</h1>
+    <h3>Nome: {{ user.nome }}</h3>
+    <h3>Idade: {{ user.idade }}</h3>
+    <h3>Profissão: {{ user.ocupacao }}</h3>
 </body>
 </html>
