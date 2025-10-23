@@ -4,5 +4,5 @@ from flask import render_template
 
 @app.route("/")
 def olaMundo():
-    nome = "Xico"
-    return render_template("index.html", nome=nome)
+    nome = "Maria"
+    return render_template("index.html", var=nome)
