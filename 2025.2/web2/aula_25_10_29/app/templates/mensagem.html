@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Formulário com POST</h1>
+    <form action="/mensagem" method="post">
+        <label>Nome:</label>
+        <input type="text" name="nome">
+        <br>
+        <label>Mensagem:</label>
+        <textarea name="mensagem"></textarea>
+        <button type="submit">Enviar</button>
+    </form>
+
+    {% if nome and mensagem %}
+        <h1>{{ nome }} disse: {{ mensagem }}</h1>
+    {% endif %}
+
+</body>
+</html>
