@@ -1,6 +1,6 @@
 from app import app, db
 from flask import render_template, redirect, url_for, request
-from app.models import Usuario
+from app.models.Usuario import Usuario
 
 @app.route('/')
 def index():
@@ -8,7 +8,7 @@ def index():
 
 @app.route('/usuarios')
 def listar_usuarios():
-    usuarios = Usuario.Usuario.query.all() # SELECT * FROM usuario
+    usuarios = Usuario.query.all() # SELECT * FROM usuario
     return render_template("usuarios.html", usuarios=usuarios)
 
 @app.route('/adicionar', methods=['POST'])
@@ -17,7 +17,7 @@ def adicionar():
     idade = int(request.form.get('idade'))
 
     if nome and idade:
-        novo = Usuario.Usuario(nome=nome, idade=int(idade))
+        novo = Usuario(nome=nome, idade=int(idade))
         db.session.add(novo)
         db.session.commit()
 
