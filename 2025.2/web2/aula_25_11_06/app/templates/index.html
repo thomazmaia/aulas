@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lista de Pessoas</title>
+</head>
+<body>
+    <h1>Lista de pessoas</h1>
+
+    <form action="/adicionar" method="post">
+        <input type="text" name="nome">
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <h3>Pessoas cadastradas:</h3>
+    <ul>
+        {% for p in pessoas %} 
+            <li>[{{ p.id }}] {{ p.nome }}
+                <form action="/editar/{{ p.id }}" method="post">
+                    <input type="text" name="novo_nome">
+                    <button type="submit">Editar</button>
+                </form>
+                [<a href="/excluir/{{ p.id }}">Excluir</a>]<br><br>
+            </li>
+        {% else %}
+            <li>Nenhuma pessoa cadastrada</li>            
+        {% endfor %}
+    </ul>
+</body>
+</html>
