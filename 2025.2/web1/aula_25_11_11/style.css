@@ -1,0 +1,41 @@
+body {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    border: 2px dashed #cccccc;
+    padding: 10px;
+    margin-bottom: 20px;
+    min-height: 100px;
+    flex-direction: row;
+}
+
+.box {
+    background-color: greenyellow;
+    padding: 15px;
+    margin: 5px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+#direction {
+    flex-direction: row;
+}
+
+#justify {
+    justify-content: center;
+}
+
+#align {
+    align-items: center;
+}
+
+#wrap {
+    flex-wrap: wrap;
+}
+
+.gap {
+    gap: 10px;
+}
