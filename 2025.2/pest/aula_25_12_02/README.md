@@ -33,23 +33,26 @@
     
 8. Escreva um programa que conte o número de ocorrências de cada palavra em uma frase. O programa deve ler uma frase do usuário, separar as palavras, armazená-las em um dicionário e imprimir o número de ocorrências para cada palavra.
     
+    ```python
     Ex: “Um elefante incomoda muita gente, dois elefantes incomodam, incomodam muito mais!”
-    `[chave] - [valor]
-    um - 1
-    elefante - 1
-    incomoda - 1
-    muita - 1
-    gente - 1
-    dois - 1
+      [chave] - [valor]
+    um        - 1
+    elefante  - 1
+    incomoda  - 1
+    muita     - 1
+    gente     - 1
+    dois      - 1
     elefantes - 1
     incomodam - 2
-    muito - 1
-    mais -1`
+    muito     - 1
+    mais      - 1
+    ```
     
 9. Escreva um programa que conte o número de ocorrências de cada letra em uma frase. O programa deve ler uma frase do usuário, separar suas letras, armazená-las em um dicionário e imprimir o número de ocorrências para cada letra.
     
+    ```python
     Ex: “Parabens pra voce”
-    `[chave] - [valor]
+    [chave] - [valor]
     p - 2
     a - 3
     r - 2
@@ -59,7 +62,8 @@
     s - 1
     v - 1
     o - 1
-    c - 1`
+    c - 1
+    ```
     
 10. Escreva um programa que crie um dicionário de produtos e seus preços. O programa deve permitir ao usuário adicionar novos produtos e preços, atualizar preços existentes e excluir produtos do dicionário. Cada produto deve estar relacionado a uma categoria. Considere as categorias: Bebida, Comida, Limpeza e Frutas.
     
