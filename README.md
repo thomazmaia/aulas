@@ -21,3 +21,7 @@
 - [Programação Estruturada](/2025.2/pest/)
 - [Desenvolvimento Web I](/2025.2/web1/)
 - [Desenvolvimento Web II](/2025.2/web2/)
+### 2026.1
+- [Programação Estruturada - Turma 1](/2026.1/pest1/)
+- [Programação Estruturada - Turma 2](/2026.1/pest2/)
+- [Desenvolvimento Web I](/2026.1/web1/)
