@@ -1,0 +1,7 @@
+print("Domingo")
+print("Segunda")
+print("Terça")
+print("Quarta")
+print("Quinta")
+print("Sexta")
+print("Sábado")
