@@ -6,7 +6,7 @@
     variável chamada `positivo`; se for negativo, armazene-o em uma
     variável chamada `negativo`; e se for zero, armazene-o em uma
     variável chamada `neutro`.\
-    `<br>`OBS: utilize apenas uma linha de código dentro de cada
+    <br>OBS: utilize apenas uma linha de código dentro de cada
     bloco `if`, `elif` e `else`.
 
 2.  Escreva um código para classificar a idade de uma pessoa. Se a idade
@@ -14,7 +14,7 @@
     e menor que 60, imprima "adulto"; se for maior ou igual a 12 e menor
     que 18, imprima "adolescente"; e se for menor que 12, imprima
     "criança".\
-    `<br>`OBS: utilize apenas uma linha de código dentro de cada
+    <br>OBS: utilize apenas uma linha de código dentro de cada
     bloco `if`, `elif` e `else`.
 
 3.  Crie um programa para determinar se um número inteiro dado está no
@@ -35,12 +35,12 @@
 
 6.  Crie um programa para ler um número de 4 dígitos e verificar se
     todos os seus dígitos são diferentes entre si.\
-    `<br>`OBS: **NÃO** converta `N` para string. Trate-o como
+    <br>OBS: **NÃO** converta `N` para string. Trate-o como
     número!
 
 7.  Escreva um programa para verificar se um número `n` de quatro
     dígitos é um número espelho, ou seja, se os dois primeiros dígitos
     formam o mesmo número que os dois últimos.\
-    `<br>`Ex: 1221, 3443, ...\
-    `<br>`OBS: **NÃO** converta `N` para string. Trate-o como
+    <br>Ex: 1221, 3443, ...\
+    <br>OBS: **NÃO** converta `N` para string. Trate-o como
     número!
