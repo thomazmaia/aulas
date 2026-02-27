@@ -34,7 +34,7 @@
     `for` para encontrar todos os números narcisistas dentro de um
     intervalo informado pelo usuário.
     
-    `<br>`Ex: 153 = 1³ + 5³ + 3³
+    <br>Ex: 153 = 1³ + 5³ + 3³
 
 10. Crie um código em Python que use o comando `for` para calcular o
     valor da somatória dos números inteiros positivos menores que n que
