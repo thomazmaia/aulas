@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        .box {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            border: 1px solid;
+            margin: 5px;
+            text-align: center;
+        }        
+
+        .z1 {
+             background-color: lightblue; 
+             top: 50px; 
+             left: 50px; 
+             z-index: 1;
+        }
+
+        .z2 {
+             background-color: lightcoral; 
+             top: 80px; 
+             left: 130px; 
+             z-index: 2;
+        }
+
+        .z3 {
+            background-color: lightgreen; 
+            top: 110px; 
+            left: 210px; 
+            z-index: 3;
+        }
+    </style>
+</head>
+<body>
+    <div class="box z1">Z1</div>
+    <div class="box z2">Z2</div>
+    <div class="box z3">Z3</div>
+</body>
+</html>
