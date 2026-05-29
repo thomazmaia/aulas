@@ -8,6 +8,7 @@
 #     - o maior número
 #     - o índice onde ele está
 
+
 L = [0, 0, 0, 0, 0]
 
 for i in range(5):
