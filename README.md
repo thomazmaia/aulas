@@ -1,5 +1,9 @@
 # Aulas - prof. Thomaz Maia
 ## http://github.com/thomazmaia/aulas
+### 2026.2
+- [Desenvolvimento Web I - Turma 1](/2026.2/web11/)
+- [Desenvolvimento Web I - Turma 2](/2026.2/web12/)
+- [Programação Estruturada](/2026.2/pest/)
 ### 2026.1
 - [Programação Estruturada - Turma 1](/2026.1/pest1/)
 - [Programação Estruturada - Turma 2](/2026.1/pest2/)
