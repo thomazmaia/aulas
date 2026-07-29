@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: beige;
+    color: #1f2937;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cartao{
+    width: 90%;
+    max-width: 600px;
+    padding: 32px;
+    background-color: white;
+    border: 2px solid blue;
+    border-radius: 20px;
+
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.etiqueta{
+    display: inline-block;
+    margin: 0;
+    padding: 6px 12px;
+
+    background-color: cornflowerblue;
+    color: #1f2937;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+h1 {
+    margin: 8px;
+    color: #1d4ed8;
+}
+
+h2 {
+    margin-top: 28px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: chartreuse;
+    
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: coral;
+}
