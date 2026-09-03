@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Exemplo de Formulário</title>
+    </head>
+
+    <body>
+
+        <form action="/enviar_dados" method="post">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome"><br>
+           
+            <label>Senha:</label>
+            <input type="password" name="senha"><br>
+           
+            <label>E-mail:</label>
+            <input type="email" name="senha" required><br>
+
+            <label>Radio:</label><br>
+            <input type="radio" name="radio">Opção 1<br>
+            <input type="radio" name="radio">Opção 2<br>
+            <input type="radio" name="radio">Opção 3<br>
+            <label>Checkbox:</label><br>
+            <input type="checkbox" name="check" value="op1">Opção 1<br>
+            <input type="checkbox" name="check">Opção 2<br>
+            <input type="checkbox" name="check">Opção 3<br>
+            <input type="checkbox" name="check">Opção 4<br>
+           
+            <input type="submit" value="Enviar">
+            <input type="file">
+        </form>
+    </body>
+</html>
