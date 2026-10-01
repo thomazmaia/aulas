@@ -1,0 +1,23 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    color: black;
+}
+
+#titulo1 {
+    background-color: darkcyan;
+}
+
+#titulo2 {
+    background-color: greenyellow;
+}
+
+#subtitulo {
+    color: darkorchid;
+}
+
+.qq {
+    color: darkmagenta;
+}
