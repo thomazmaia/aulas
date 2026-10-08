@@ -1,0 +1,24 @@
+main {background-color: red;}
+
+body {background-color: blueviolet;}
+
+.sec_impar{background-color: white;}
+
+.sec_par{background-color: yellow;}
+
+h1, h2 {
+    background-color: black;
+    color: white
+}
+
+a {
+    background-color: aqua;
+}
+
+a:hover {
+    background-color: chartreuse;
+}
+
+a:active {
+    background-color: black;
+}
